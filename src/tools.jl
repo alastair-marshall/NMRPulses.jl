@@ -8,7 +8,7 @@ function prepare_sequence(sequence)
     dtArr = zeros(totN)
 
     for (i, p) in enumerate(sequence.pulses)
-        pulse_t = range(0, p.T - p.dt, step=p.dt)
+        pulse_t = range(0, p.T, step=p.dt)
         N = get_length(p)
         D = p.(pulse_t)
 
