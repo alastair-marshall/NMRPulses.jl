@@ -7,10 +7,12 @@ export Pulse,
     PiPulse,
     PiHalfPulse,
     ArbitraryPulse,
-    PWPulse
+    PWPulse,
+    prepare_sequence
 
 
 
 include("pulses.jl")
+include("tools.jl")
 
 end
