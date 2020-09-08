@@ -1,5 +1,16 @@
 module NMRPulses
 
-# Write your package code here.
+export Pulse,
+    BasicPulse,
+    IdlePulse,
+    Sequence,
+    PiPulse,
+    PiHalfPulse,
+    ArbitraryPulse,
+    PWPulse
+
+
+
+include("pulses.jl")
 
 end
