@@ -19,3 +19,4 @@ a, b, c = prepare_sequence(s)
 plot(cumsum(c), a, xlabel = "Time (us)", ylabel = "Rabi Frequency")
 
 ```
+![Plot of pulse sequence](https://github.com/alastair-marshall/NMRPulses.jl/blob/master/assets/echo.png?raw=true "Pulse sequence")
